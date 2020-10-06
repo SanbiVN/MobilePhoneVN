@@ -20,8 +20,8 @@ Vị trí	|Tham số	|Kiểu	|Chức năng
 5	|ZeroFrontNumber 	|Có/Không	|Giữ lại số 0 khi in mảng
 6	|Header 	|Có/Không	|Mảng có đầu đề hay không
 7	|ReturnOrder 	|Số nguyên	|Đặt vị trí cột, nếu có cột số thứ tự
-8	|ReturnNewPhone 	|Số nguyên	|Đặt vị trí cột, nếu có cột số điện thoại mới
-9	|ReturnOldPhone 	|Số nguyên	|Đặt vị trí cột, nếu có cột số điện thoại cũ
+8	|ReturnNewNumber 	|Số nguyên	|Đặt vị trí cột, nếu có cột số điện thoại mới
+9	|ReturnOldNumber 	|Số nguyên	|Đặt vị trí cột, nếu có cột số điện thoại cũ
 10	|ReturnStandardsE164 	|Số nguyên	|Đặt vị trí cột, nếu có cột chuẩn hóa số Điện thoại (E164) 
 11	|ReturnCompany 	|Số nguyên	|Đặt vị trí cột, nếu có cột tên Nhà Mạng
 12	|ReturnInvalid 	|Số nguyên	|Đặt vị trí cột, nếu có cột chuỗi không hợp lệ
