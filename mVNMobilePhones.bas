@@ -237,7 +237,6 @@ Sub AreaClearContents(ByVal vRange As Object, Optional ByVal OffsetRow&, Optiona
   Dim R As Object
   Set R = AreaFromTarget(vRange, OffsetRow&, OffsetColumn&, LimitRow, LimitColumn)
   If Not R Is Nothing Then
-    Debug.Print R.Address(0, 0)
     R.ClearContents
     Set R = Nothing
   End If
