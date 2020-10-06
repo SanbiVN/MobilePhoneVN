@@ -25,8 +25,8 @@ Function S_MobileVN(Numbers, _
           Optional ZeroFrontNumber As Boolean, _
           Optional Header As Boolean, _
           Optional ReturnOrder As Integer, _
-          Optional ReturnNewPhone As Integer, _
-          Optional ReturnOldPhone As Integer, _
+          Optional ReturnNewNumber As Integer, _
+          Optional ReturnOldNumber As Integer, _
           Optional ReturnStandardsE164 As Integer, _
           Optional ReturnCompany As Integer, _
           Optional ReturnInvalid As Integer, _
@@ -43,7 +43,7 @@ Function S_MobileVN(Numbers, _
   k = UBound(ValArgs)
   ReDim Preserve ValArgs(1 To k + 1)
   ValArgs(k + 1) = VBA.Array(R, Numbers, Delimiter, includeInvalid, Expand, ZeroFrontNumber, Header, _
-                             ReturnOrder, ReturnNewPhone, ReturnOldPhone, ReturnStandardsE164, ReturnCompany, ReturnInvalid)
+                             ReturnOrder, ReturnNewNumber, ReturnOldNumber, ReturnStandardsE164, ReturnCompany, ReturnInvalid)
   If gTimerID = 0 Then gTimerID = SetTimer(0&, 0&, 1, AddressOf S_ValCallback)
 End Function
 
@@ -104,8 +104,8 @@ Function S_GetMobileVN(ByVal Numbers, _
                    Optional ByVal ZeroFrontNumber As Boolean, _
                    Optional ByVal Header As Boolean, _
                    Optional ByVal ReturnOrder As Integer, _
-                   Optional ByVal ReturnNewPhone As Integer, _
-                   Optional ByVal ReturnOldPhone As Integer, _
+                   Optional ByVal ReturnNewNumber As Integer, _
+                   Optional ByVal ReturnOldNumber As Integer, _
                    Optional ByVal ReturnStandardsE164 As Integer, _
                    Optional ByVal ReturnCompany As Integer, _
                    Optional ByVal ReturnInvalid As Integer) As Variant
@@ -115,8 +115,8 @@ Function S_GetMobileVN(ByVal Numbers, _
   N = vbNullString: m = -Header
   J = IIf(ZeroFrontNumber, "'", N)
   A(1) = ReturnOrder
-  A(2) = ReturnNewPhone
-  A(3) = ReturnOldPhone
+  A(2) = ReturnNewNumber
+  A(3) = ReturnOldNumber
   A(4) = ReturnStandardsE164
   A(5) = ReturnCompany
   A(6) = ReturnInvalid
@@ -224,8 +224,8 @@ A:
   If ReturnOrder Then total(ReturnOrder, k) = kk
 Return
 R:
-  If ReturnNewPhone Then total(ReturnNewPhone, k) = P1
-  If ReturnOldPhone Then total(ReturnOldPhone, k) = P2
+  If ReturnNewNumber Then total(ReturnNewNumber, k) = P1
+  If ReturnOldNumber Then total(ReturnOldNumber, k) = P2
   If ReturnStandardsE164 Then total(ReturnStandardsE164, k) = P3
   If ReturnCompany Then total(ReturnCompany, k) = P4
   If ReturnInvalid Then total(ReturnInvalid, k) = P5
