@@ -4,8 +4,12 @@
 > với Hàm S_GetMobileVN và Hàm S_MobileVN				
 				
 > Sẽ trả lại mảng chứa kết quả chuyển đổi và tìm số điện thoại trong chuỗi gồm các cột: 				
-Đánh thứ tự, số mới, số cũ, định dạng tiêu chuẩn, nhà mạng, chuỗi không hợp lệ				
-				
+Đánh thứ tự, số mới, số cũ, định dạng tiêu chuẩn, nhà mạng, chuỗi không hợp lệ
+
+
+![Image](https://github.com/SanbiVN/MobilePhoneVN/blob/main/mobile_phone_VN.gif)
+			
+			
 ## Hướng dẫn sử dụng hàm:				
 	
 Cả 2 Hàm đều có chức năng như nhau gồm 12 tham số :			
