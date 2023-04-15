@@ -20,12 +20,12 @@
 =epExpand() 	| 	|Mở rộng xuống hàng mới nếu chuỗi có nhiều số ĐT
 =epZeroFrontNumber() 	|	|Giữ lại số 0 khi in mảng
 =epHeader() 	|	|Mảng có đầu đề hay không
-=epColumns(1,2,3,4,5,6)	| 1. ReturnOrder 	|Đặt vị trí cột, nếu có cột số thứ tự
-2	| ReturnNewNumber 	|Đặt vị trí cột, nếu có cột số điện thoại mới
-3 	| ReturnOldNumber 	|Đặt vị trí cột, nếu có cột số điện thoại cũ
-4 	| ReturnStandardsE164 	|Đặt vị trí cột, nếu có cột chuẩn hóa số Điện thoại (E164) 
-5 	| ReturnCompany 	|Đặt vị trí cột, nếu có cột tên Nhà Mạng
-6 	| ReturnInvalid 	|Đặt vị trí cột, nếu có cột chuỗi không hợp lệ
+=epColumns(1,2,3,4,5,6)	| 1 	|Đặt vị trí cột, nếu có cột số thứ tự
+2	|  	|Đặt vị trí cột, nếu có cột số điện thoại mới
+3 	|  	|Đặt vị trí cột, nếu có cột số điện thoại cũ
+4 	|  	|Đặt vị trí cột, nếu có cột chuẩn hóa số Điện thoại (E164) 
+5 	|  	|Đặt vị trí cột, nếu có cột tên Nhà Mạng
+6 	|  	|Đặt vị trí cột, nếu có cột chuỗi không hợp lệ
 	
 
 
