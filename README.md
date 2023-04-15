@@ -27,5 +27,6 @@
 5 	|  	|Đặt vị trí cột, nếu có cột tên Nhà Mạng
 6 	|  	|Đặt vị trí cột, nếu có cột chuỗi không hợp lệ
 	
-
+Tệp MobilePhoneVN.xlsm tách số điện thoại di động.
+Tệp ConvertPhoneNumberVN.xlsm tách số điện thoại cố định.
 
